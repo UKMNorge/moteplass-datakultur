@@ -27,7 +27,7 @@ WP_TWIG::addFilter('countByCol', ['data', 'countByCol'], $environment);
 WP_TWIG::addFilter('header', ['data', 'header']);
 
 if (!isset($_GET['PAGE'])) {
-    $_GET['page'] = 'front';
+    $_GET['PAGE'] = 'front';
 }
 switch ($_GET['PAGE']) { 
     case 'pamelding':
