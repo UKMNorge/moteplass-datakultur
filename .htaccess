@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTP:Authorization} ^(.*)
+
+RewriteRule ^skjema/?$ "https:\/\/form.jotformeu.com\/93363407017353" [R=302,L]
+RewriteRule ^([a-z0-9A-Z-_]+)/?$ index.php?PAGE=$1 [QSA,L]
