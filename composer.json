@@ -3,7 +3,7 @@
     "type": "project",
     "description": "Informasjonsside for møteplass datakultur",
     "repositories": [{
-        "url": "https://github.com/UKMNorge/moteplass-datakultur.git",
+        "url": "https://github.com/UKMNorge/UKMresponsive.git",
         "type": "git"
     }],
     "require": {
