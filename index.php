@@ -1,5 +1,8 @@
 <?php
 
+use UKMNorge\DesignBundle\Utils\SEO;
+use UKMNorge\DesignBundle\Utils\SEOImage;
+
 ini_set('display_errors', true);
 require_once('UKMconfig.inc.php');
 
@@ -25,6 +28,16 @@ $environment = [
 WP_TWIG::addFilter('count', ['data', 'count'], $environment);
 WP_TWIG::addFilter('countByCol', ['data', 'countByCol'], $environment);
 WP_TWIG::addFilter('header', ['data', 'header']);
+
+SEO::setSiteName('Møteplass datakultur');
+SEO::setImage( 
+    new SEOImage( 
+        STANDALONE_URL.'/grafikk-1800.png',
+        1800,
+        930,
+        'png'
+    )
+);
 
 if (!isset($_GET['PAGE'])) {
     $_GET['PAGE'] = 'front';
