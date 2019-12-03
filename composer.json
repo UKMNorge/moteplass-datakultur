@@ -1,0 +1,12 @@
+{
+    "name": "ukmnorge/moteplass-datakultur",
+    "type": "project",
+    "description": "Informasjonsside for møteplass datakultur",
+    "repositories": [{
+        "url": "https://github.com/UKMNorge/moteplass-datakultur.git",
+        "type": "git"
+    }],
+    "require": {
+        "ukmnorge/designbundle": "dev-master"
+    }
+}
