@@ -6,7 +6,7 @@ use UKMNorge\DesignBundle\Utils\SEOImage;
 ini_set('display_errors', true);
 require_once('UKMconfig.inc.php');
 
-define('STANDALONE_URL', 'https://datakultur' . (UKM_HOSTNAME == 'ukm.dev' ? '.ukm.dev' : 'org'));
+define('STANDALONE_URL', 'https://datakultur' . (UKM_HOSTNAME == 'ukm.dev' ? '.ukm.dev' : '.org'));
 define('STANDALONE_AJAX', 'false');
 define('STANDALONE_SECTION', 'Møteplass datakultur');
 define('STANDALONE_TITLE', 'Møteplass datakultur');
