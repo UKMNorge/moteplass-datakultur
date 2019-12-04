@@ -7,13 +7,12 @@ body {
     background-color: rgb(16, 0, 84);
     overflow-x: hidden;
     color: #fff;
-    font-family: futura-pt, sans-serif;
-    font-weight: 400;
-    font-style: normal;
     font-size: 18px;
 }
 
-body p {
+body,
+body p,
+body p.lead {
     font-family: futura-pt, sans-serif;
     font-weight: 400;
     font-style: normal;
