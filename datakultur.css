@@ -18,6 +18,21 @@ body p.lead {
     font-style: normal;
 }
 
+body h1,
+body .h1,
+body h2,
+body .h2,
+body h3,
+body .h3,
+body h4,
+body .h4,
+body h5,
+body .h5,
+body h6,
+body .h6 {
+    font-family: futura-pt, sans-serif;
+}
+
 a {
     color: #fff;
 }
