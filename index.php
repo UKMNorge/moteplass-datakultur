@@ -2,7 +2,6 @@
 
 use UKMNorge\DesignBundle\Utils\SEO;
 use UKMNorge\DesignBundle\Utils\SEOImage;
-use DateTime;
 
 ini_set('display_errors', true);
 require_once('UKMconfig.inc.php');
