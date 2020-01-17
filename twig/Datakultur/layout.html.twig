@@ -12,9 +12,15 @@
 			<div class="col-4 center courier">
 				<a href="/forsiden/">FORSIDEN</a>
 			</div>
-			<div class="col-4 center courier">
-				<a href="/pamelding/">PÅMELDING</a>
-			</div>
+            {% if apen_pamelding %}
+                <div class="col-4 center courier">
+                    <a href="/pamelding/">PÅMELDING</a>
+                </div>
+            {% else %}
+                <div class="col-4 center courier">
+                    <a href="/program/">PROGRAM</a>
+                </div>
+            {% endif %}
 			<div class="col-4 center courier">
 				<a href="/info/">INFO</a>
 			</div>

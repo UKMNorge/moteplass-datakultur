@@ -5,25 +5,33 @@
 		<div class="row">
 			<div class="col-md-10 ml-md-auto mr-md-auto col-lg-8">
 				<article>
-                    <h1 class="mb-1">Påmelding til møteplass datakultur</h1>
-                    <p class="mt-0 lead"><a href="https://g.page/vegascene?share" target="_blank">Vega Scene</a>, Oslo, lørdag 25. januar</p>
+					<h1 class="mb-1">Påmelding til møteplass datakultur</h1>
+					<p class="mt-0 lead">
+						<a href="https://g.page/vegascene?share" target="_blank">Vega Scene</a>, Oslo, lørdag 25. januar</p>
 
-                    <p class="mt-5">
-                        Så hyggelig at du vil være med!
-                    </p>
+					<p class="mt-5">
+						Så hyggelig at du vil være med!
+					</p>
 
-                    <p>
-                        Skjemaet fylles ut av kontaktpersonen for klubben/organsisasjonen. 
-                        Hver organisasjon kan stille med 4 deltakere, og minst halvparten må være ungdom.
-                    </p>
+					<p>
+						Skjemaet fylles ut av kontaktpersonen for klubben/organsisasjonen. 
+						Hver organisasjon kan stille med 4 deltakere, og minst halvparten må være ungdom.
+					</p>
 
-                    <p>
-                        Påmeldingsfrist: onsdag 8. januar
-                    </p>
+					<p>
+						Påmeldingsfrist: søndag 19. januar 2020
+					</p>
 
-                    <p class="mt-3">
-                        <a href="/skjema/" target="_blank" id="cta">Fyll ut påmeldingsskjema</a>
-                    </p>
+
+					{% if apen_pamelding %}
+						<p class="mt-3">
+							<a href="/skjema/" target="_blank" class="cta">Fyll ut påmeldingsskjema</a>
+						</p>
+					{% else %}
+						<p class="mt-3">
+							Påmeldingen er stengt.
+						</p>
+					{% endif %}
 				</article>
 			</div>
 		</div>

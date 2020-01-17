@@ -2,6 +2,7 @@
 
 use UKMNorge\DesignBundle\Utils\SEO;
 use UKMNorge\DesignBundle\Utils\SEOImage;
+use DateTime;
 
 ini_set('display_errors', true);
 require_once('UKMconfig.inc.php');
@@ -49,9 +50,22 @@ switch ($_GET['PAGE']) {
     case 'info':
         $template = 'info';
     break;
+    case 'program':
+        $template = 'program';
+    break;
     default:
         $template = 'front';
     break;
 }
 
-echo WP_TWIG::render('Datakultur/'.$template, []);
+$pameldingsfrist = DateTime::createFromFormat('Y-m-d H:i:s', '2020-01-19 23:59:59');
+
+setlocale(LC_ALL, array('nb_NO.UTF-8','nb_NO@euro','nb_NO','norwegian'));
+
+echo WP_TWIG::render(
+    'Datakultur/'.$template, 
+    [
+        'pameldingsfrist' => $pameldingsfrist,
+        'apen_pamelding' => new DateTime('now') < $pameldingsfrist
+    ]
+);

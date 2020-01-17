@@ -5,38 +5,50 @@
 		<div class="row">
 			<div class="col-md-10 ml-md-auto mr-md-auto col-lg-8">
 				<article>
-                    <h1>Hvorfor møteplass datakultur?</h1>
-                    
-                    <p class="lead">
-                        Målet med dagen er å komme fram til noen konkrete ting som kan gjøre det bedre å spille sammen.
-                        Dette skal vi blant annet sende til regjeringen, 
-                        så dagen kan være med på å påvirke framtidens politikk for spill og ungdom.
-                    </p>
+					<h1>Hvorfor møteplass datakultur?</h1>
 
-                    <p>
-                        <a href="//kandu.no/" target="_blank">Kandu</a>,
-                        <a href="//org.ukm.no/" target="_blank">UKM</a>, 
-                        <a href="//ungdomogfritid.no/" target="_blank">Ungdom og fritid</a> og
-                        <a href="//tverga.no/" target="_blank">Tverga</a>
-                         har gått sammen for finne ut hvordan 
-                        man kan lage bedre arrangementer for spilling. 
-                        Med støtte fra <a href="//lnu.no/" target="_blank">LNU (Landsrådet for Noregs barne- og ungdomsorganisasjoner)</a>
-                        har vi fått midler til å arrangere en workshop for å finne ut hva 
-                        ungdom mangler for å kunne møtes og spille.
-                    </p>
+					<p class="lead">
+						Målet med dagen er å komme fram til noen konkrete ting som kan gjøre det bedre å spille sammen.
+						                        Dette skal vi blant annet sende til regjeringen, 
+						                        så dagen kan være med på å påvirke framtidens politikk for spill og ungdom.
+					</p>
 
-                    <p>
-                        Dette skal skje lørdag 25. januar på <a href="https://g.page/vegascene?share" target="_blank">Vega Scene i Oslo</a>.
-                        Arrangementet vil bestå av innledninger, diskusjoner og workshop om hva 
-                        som trengs for å skape en bedre spillkultur. 
-                    </p>
+					<p>
+						<a href="//kandu.no/" target="_blank">Kandu</a>,
+						<a href="//org.ukm.no/" target="_blank">UKM</a>,
+						<a href="//ungdomogfritid.no/" target="_blank">Ungdom og fritid</a>
+						og
+						<a href="//tverga.no/" target="_blank">Tverga</a>
+						har gått sammen for finne ut hvordan 
+						                        man kan lage bedre arrangementer for spilling. 
+						                        Med støtte fra
+						<a href="//lnu.no/" target="_blank">LNU (Landsrådet for Noregs barne- og ungdomsorganisasjoner)</a>
+						har vi fått midler til å arrangere en workshop for å finne ut hva 
+						                        ungdom mangler for å kunne møtes og spille.
+					</p>
 
-                    <p>
-                        Vi starter lørdag 25.januar kl 12:00, og avslutter kl 18:00. Innsjekk starter kl 11:00.
-                        Detaljert program kommer i løpet av desember. 
-                    </p>
+					<p>
+						Dette skal skje lørdag 25. januar på
+						<a href="https://g.page/vegascene?share" target="_blank">Vega Scene i Oslo</a>.
+							                        Arrangementet vil bestå av innledninger, diskusjoner og workshop om hva 
+							                        som trengs for å skape en bedre spillkultur.
+					</p>
 
-                    {% include "Datakultur/cta.html.twig" %}
+					<p>
+						Vi starter lørdag 25.januar kl 12:00, og avslutter kl 18:00. Innsjekk starter kl 11:00.
+						                        Detaljert program kommer i løpet av desember.
+					</p>
+
+                    {% if apen_pamelding %}
+					    {% include "Datakultur/cta.html.twig" %}
+                    {% endif %}
+
+					<div>
+						<a href="/program/" class="cta">
+							Se programmet
+						</a>
+					</div>
+
 				</article>
 			</div>
 		</div>
