@@ -1,0 +1,38 @@
+{% extends "Datakultur/layout.html.twig" %}
+
+{% block content %}
+	<script>
+		function play(id) {
+            var audio = document.getElementById(id);
+            audio.play();
+            return false;
+        }
+	</script>
+    	<div class="container">
+		<div class="row">
+			<div class="col-md-10 ml-md-auto mr-md-auto col-lg-8">
+				<h1>Gjennomføringsverktøy</h1>
+
+
+				<div class="row">
+					<div class="col-4">
+						<a href="#" class="cta mt-1" onclick="play('start')">Start</a>
+					</div>
+                </div>
+
+				<h2 class="mt-5 mb-0">Lydeffekter</h2>
+                <div class="row">
+					<div class="col-6">
+						<a href="#" class="cta mt-3" onclick="play('timeOut')">1 min</a>
+					</div>
+					<div class="col-6">
+						<a href="#" class="cta mt-3" onclick="play('gameOver')">Tiden ute</a>
+					</div>
+				</div>
+				<audio id="start" src="/sounds/mk64_racestart.wav"></audio>
+				<audio id="gameOver" src="/sounds/smb_gameover.wav"></audio>
+				<audio id="timeOut" src="/sounds/smb_warning.wav"></audio>
+			</div>
+		</div>
+	</div>
+{% endblock %}

@@ -52,9 +52,19 @@ switch ($_GET['PAGE']) {
     case 'program':
         $template = 'program';
     break;
+
+    case 'timer':
+        $template = 'timer';
+    break;
+
+    case 'kontroll':
+        $template = 'kontroll';
+    break;
+
     default:
         $template = 'front';
     break;
+    
 }
 
 $pameldingsfrist = DateTime::createFromFormat('Y-m-d H:i:s', '2020-01-19 23:59:59');
