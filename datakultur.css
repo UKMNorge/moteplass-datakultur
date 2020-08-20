@@ -3,6 +3,10 @@
     src: url('/OutageCut.ttf');
 }
 
+html {
+    background: none;
+}
+
 body {
     background-color: rgb(16, 0, 84);
     overflow-x: hidden;
