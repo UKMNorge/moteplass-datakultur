@@ -1,6 +1,7 @@
 @font-face {
-    font-family: 'OutageCut';
-    src: url('/OutageCut.ttf');
+  font-family: open-sans, sans-serif;
+font-style: normal;
+font-weight: 300;
 }
 
 html {
