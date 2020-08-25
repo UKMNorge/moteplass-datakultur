@@ -49,26 +49,6 @@ a:visited {
     text-decoration: none;
 }
 
-.gradient {
-    /*background: rgb(129,32,130);*/
-    background: radial-gradient(circle, rgba(129, 32, 130, 1) 0%, rgba(16, 0, 84, 1) 50%, rgba(16, 0, 84, 0) 70%);
-    position: absolute;
-    width: 120vw;
-    height: 120vh;
-    overflow: hidden;
-    z-index: -10;
-}
-
-#topgradient {
-    top: -32vh;
-    left: -46vw;
-}
-
-#bottomgradient {
-    margin-bottom: -140vh;
-    bottom: 0;
-    right: -46vw;
-}
 
 
 .center {
