@@ -2,7 +2,7 @@
   font-family: open-sans, sans-serif;
 font-style: normal;
 font-weight: 300;
-font-color: #f6efc4;
+
 }
 
 html {
@@ -79,6 +79,7 @@ a:visited {
     margin-bottom: 0.8em;
     margin-top: 1em;
     font-family: Open-sans, sans-serif;
+  font-color: #f6efc4;
 }
 
 #nav {
