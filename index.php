@@ -39,6 +39,13 @@ SEO::setImage(
     )
 );
 
+$release = DateTime::createFromFormat('Y-m-d H:i:s', '2020-09-08 00:00:00');
+$now = new DateTime();
+$released = $now > $release;
+
+
+$is_frontpage = !isset($_GET['PAGE']);
+
 if (!isset($_GET['PAGE'])) {
     $_GET['PAGE'] = 'front';
 }
@@ -62,6 +69,10 @@ switch ($_GET['PAGE']) {
     break;
 
     default:
+        if( $is_frontpage && !$released) {
+            $template = 'kommersnart';
+            break;
+        }
         $template = 'front';
     break;
     
@@ -76,6 +87,8 @@ echo WP_TWIG::render(
     [
         'pameldingsfrist' => $pameldingsfrist,
         'apen_pamelding' => new DateTime('now') < $pameldingsfrist,
-        'current_page' => $template
+        'current_page' => $template,
+        'release_date' => $release,
+        'released' => $released
     ]
 );

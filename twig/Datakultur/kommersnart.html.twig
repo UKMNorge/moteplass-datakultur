@@ -1,0 +1,41 @@
+{% extends "Datakultur/layout.html.twig" %}
+
+{% block framework_content %}
+	<div class="gradient" id="topgradient"></div>
+	<div class="container" id="nav">
+		<div class="row"></div>
+	</div>
+	<div class="container" id="frontpage">
+		<div class="row">
+			<div class="col-12">
+				<div class="center" id="textcontainer">
+					<h2 id="tittel">Møteplass datakultur:</h2>
+					<h1 id="sporsmalet">{{ release_date|dato('j. F') }}
+						kommer rapporten</h1>
+					<a href="#velkommen"><img src="//grafikk.ukm.no/pilned.png" id="pilned"/></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container" id="frontpagecontent">
+		<div class="row">
+			<div class="col-12 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
+				<div style="padding-top:10vh;"></div>
+				<a name="velkommen"></a>
+				<p>
+					Dataspill er den største fritidsinteressen blant ungdom i Norge i dag. Dataspill blir ofte omtalt som en aktivitet man gjør i isolasjon.
+                    Møteplasser som fritidsklubber, bibliotek og diverse spillhus med fokus på data- og konsollspill til barn og unge viser imidlertid at det
+                    finnes både et behov og et publikum for flere sosiale arenaer med gaming i fokus.
+				</p>
+				<p>
+					Møteplass datakultur er et samarbeidsprosjekt mellom organisasjonenen Ungdom og Fritid, UKM (Ung Kultur Møtes), Tverga og KANDU (Norsk dataungdom. 
+                    Målet med prosjektet har vært å undersøke hvordan ikke-kommersielle aktører kan tilrettelegge bedre for møteplasser for datakultur, med utgangspunkt i 
+                    ungdoms ønsker og behov. Denne rapporten viser resultatene fra et medvirkningsseminar arrangert i januar 2020 med 80 ungdom og ungdomsarbeidere fra hele 
+                    landet. Her diskuterte deltakerne hva som utgjør en god møteplass for gaming og datakultur, og bidro med sine erfaring, behov, ideer og drømmer.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="gradient" id="bottomgradient"></div>
+	<p class="mt-5 mb-5">&nbsp;</p>
+{% endblock %}
