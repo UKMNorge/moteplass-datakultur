@@ -75,6 +75,7 @@ echo WP_TWIG::render(
     'Datakultur/'.$template, 
     [
         'pameldingsfrist' => $pameldingsfrist,
-        'apen_pamelding' => new DateTime('now') < $pameldingsfrist
+        'apen_pamelding' => new DateTime('now') < $pameldingsfrist,
+        'current_page' => $template
     ]
 );

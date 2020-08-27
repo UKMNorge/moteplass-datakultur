@@ -11,9 +11,11 @@
 
 	<div class="container" id="nav">
 		<div class="row">
-			<div class="col-4 center courier">
-				<a href="/forsiden/">Forsiden</a>
-			</div>
+			{% if current_page != 'front' %}
+                <div class="col-4 center courier">
+                    <a href="/forsiden/">Forsiden</a>
+                </div>
+            {% endif %}
             {% if apen_pamelding %}
                 <div class="col-4 center courier">
                     <a href="/pamelding/">PÅMELDING</a>
