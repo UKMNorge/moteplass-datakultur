@@ -139,6 +139,9 @@ a:visited {
     #sporsmalet {
         font-size: 7vw;
     }
+ .article img {
+    max-height:70%
+  }
 }
 
 @media(min-width: 1200px) {
