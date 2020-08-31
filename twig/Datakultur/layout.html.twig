@@ -1,32 +1,32 @@
 {% extends "Layout/_framework.html.twig" %}
 
 {% block css %}
-	
+
 	<link rel="stylesheet" href="https://use.typekit.net/pyy1rru.css">
 
-	<link rel="stylesheet" href="/datakultur.css" />
+	<link rel="stylesheet" href="/datakultur.css"/>
 {% endblock %}
 {% block framework_content %}
 	<div class="gradient" id="topgradient"></div>
 
 	<div class="container" id="nav">
 		<div class="row">
-                <div class="col-4 center courier">
-			{% if current_page != 'front' %}
-                    <a href="/forsiden/">Forsiden</a>
-            {% else %}
-                &nbsp;
-            {% endif %}
-                </div>
-            {% if apen_pamelding %}
-                <div class="col-4 center courier">
-                    <a href="/pamelding/">PÅMELDING</a>
-                </div>
-            {% else %}
-                <div class="col-4 center courier">
-                    <a href="/program/">Rapporten</a>
-                </div>
-            {% endif %}
+			<div class="col-4 center courier">
+				{% if current_page != 'front' %}
+					<a href="/forsiden/">Forsiden</a>
+				{% else %}
+					&nbsp;
+				{% endif %}
+			</div>
+			{% if apen_pamelding %}
+				<div class="col-4 center courier">
+					<a href="/pamelding/">PÅMELDING</a>
+				</div>
+			{% else %}
+				<div class="col-4 center courier">
+					<a href="/program/">Rapporten</a>
+				</div>
+			{% endif %}
 			<div class="col-4 center courier">
 				<a href="/info/">Les mer</a>
 			</div>
