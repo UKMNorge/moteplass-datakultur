@@ -123,6 +123,7 @@ a:visited {
 
 .logo img{
   width: 50%;
+  margin-top: 1em;
 }
 
 @media(min-width: 768px) {
