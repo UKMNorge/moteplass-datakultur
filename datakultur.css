@@ -121,6 +121,10 @@ a:visited {
     text-decoration: none;
 }
 
+.logo img{
+  width: 50%;
+}
+
 @media(min-width: 768px) {
     #tittel,
     #sted {
