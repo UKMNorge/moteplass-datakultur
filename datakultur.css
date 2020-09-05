@@ -81,15 +81,15 @@ a:visited {
 
 #tittel,
 #sted {
-    font-size: 7vw;
+    font-size: 4vw;
     font-weight: 700;
-  padding-left: 15px;
+  padding-left: 30px;
 }
 
 #sporsmalet {
-    font-size: 4vw;
+    font-size: 6vw;
     font-weight: 100;
-    margin-bottom: 0.8em;
+    margin-bottom: 1.2em;
     margin-top: 0.5em;
     font-family: Open-sans, sans-serif;
   font-color: #f6efc4;
@@ -138,7 +138,7 @@ a:visited {
 @media(min-width: 768px) {
     #tittel,
     #sted {
-        font-size: 4vw;
+        font-size: 3vw;
     }
     #sporsmalet {
         font-size: 9vw;
@@ -151,7 +151,7 @@ a:visited {
         font-size: 3vw;
     }
     #sporsmalet {
-        font-size: 7vw;
+        font-size: 4vw;
     }
  .article img {
     max-height:70%
@@ -161,9 +161,9 @@ a:visited {
 @media(min-width: 1200px) {
     #tittel,
     #sted {
-        font-size: 2rem;
+        font-size: 3vw;
     }
     #sporsmalet {
-        font-size: 5rem;
+        font-size: 4vw;
     }
 }
