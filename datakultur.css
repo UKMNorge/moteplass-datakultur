@@ -83,15 +83,20 @@ a:visited {
 #sted {
     font-size: 7vw;
     font-weight: 700;
+  padding-left: 15px;
 }
 
 #sporsmalet {
-    font-size: 10vw;
+    font-size: 4vw;
     font-weight: 100;
     margin-bottom: 0.8em;
-    margin-top: 1em;
+    margin-top: 0.5em;
     font-family: Open-sans, sans-serif;
   font-color: #f6efc4;
+}
+
+.illustrasjon {
+  margin-top: 0.5em;
 }
 
 #nav {
