@@ -85,7 +85,7 @@ a:visited {
 #sted {
     font-size: 4vw;
     font-weight: 700;
-  padding-left: 30px;
+  padding-left: 15px;
 }
 
 #sporsmalet {
@@ -95,11 +95,14 @@ a:visited {
     margin-top: 0.5em;
     font-family: Open-sans, sans-serif;
   font-color: #f6efc4;
+  padding-left: 15px;
 }
 
 .illustrasjon {
   margin-top: 0.5em;
 }
+
+
 
 #nav {
     padding-top: 4vh;
@@ -141,10 +144,14 @@ a:visited {
     #tittel,
     #sted {
         font-size: 3vw;
+   
     }
     #sporsmalet {
-        font-size: 9vw;
+        font-size: 4.5vw;
     }
+  
+  .illustrasjon img {
+    max-width: 50%;
 }
 
 @media(min-width: 992px) {
