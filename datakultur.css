@@ -154,9 +154,7 @@ a:active {
         font-size: 4.5vw;
     }
   
-  .illustrasjon img {
-    max-height: 70%;
-}
+  img.wp-caption { max-width:70% !important; }
 }
 
 @media(min-width: 992px) {
@@ -171,9 +169,7 @@ a:active {
     max-height:70%
   }
   
-    .illustrasjon img {
-    max-height: 70%;
-}
+ img.wp-caption { max-width:70% !important; }
 }
 
 @media(min-width: 1200px) {
@@ -184,7 +180,5 @@ a:active {
     #sporsmalet {
         font-size: 4vw;
     }
-    .illustrasjon img {
-    max-height: 70%;
-}
+ img.wp-caption { max-width:70% !important; }
 }
