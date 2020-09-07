@@ -63,6 +63,10 @@ a:visited {
     text-decoration: none;
 }
 
+a:active {
+  font-weight:700;
+}
+
 
 
 .center {
