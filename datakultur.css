@@ -142,6 +142,15 @@ a:active {
 .logo img{
   width: 50%;
   margin-top: 1em;
+ 
+}
+
+
+@media (max-width: 576px) { 
+  img#forsideill {
+  max-width:70% !important; 
+  } 
+
 }
 
 @media(min-width: 768px) {
