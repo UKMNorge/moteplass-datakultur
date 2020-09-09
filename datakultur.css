@@ -146,7 +146,7 @@ a:active {
 }
 
 
-@media (max-width: 576px) { 
+@media (max-width: 768px) { 
   img#forsideill {
   max-width:70% !important; 
   } 
