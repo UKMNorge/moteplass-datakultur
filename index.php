@@ -32,7 +32,7 @@ WP_TWIG::addFilter('header', ['data', 'header']);
 SEO::setSiteName('Møteplass datakultur');
 SEO::setImage( 
     new SEOImage( 
-        STANDALONE_URL.'/grafikk-1800_ny.png',
+        STANDALONE_URL.'/grafikk-1800.png',
         1800,
         930,
         'png'
