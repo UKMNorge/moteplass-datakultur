@@ -1,0 +1,91 @@
+{% extends "Datakultur/layout.html.twig" %}
+
+{% block content %}
+	<article>
+		<div class="container">
+		
+            
+            
+
+            <div class="row mt-2">
+                <div class="col-12 col-md-10 ml-md-auto mr-md-auto col-lg-8">
+					
+
+					<h2>
+						VEILEDER
+					</h2>
+					
+					<div class="logo">
+					<img src="/ungdomogfritid2.png">
+					</div>
+
+					<h3>
+						Ungdom og Fritid
+					</h3>
+					<p>
+						Ungdom og Fritid – Landsforeningen for fritidsklubber og ungdomshus er en demokratisk barne- og ungdomsorganisasjon 
+                        for 100 000 brukere, 2 500 ansatte og frivillige i 650 kommunalt støttede fritidsklubber, ungdomshus og lignende åpne møteplasser. 
+                        Våre medlemmer har siden spillkulturen kom til Norge på 80 tallet tilbudt ungdom tilgang på spill og spillutstyr. Mange av klubbene 
+                        har også satset på dette kulturfeltet med egne spillrom og spillsatsinger og flere av klubbene står bak lokale LAN. Metodikken vår er 
+                        medvirkning, og fokuset i klubbene er, og har derfor hele tiden vært, å la ungdom selv løfte frem spill- og datainteresser.
+					</p>
+					
+					<div class="logo">
+					<img src="/ukm4.png">
+					</div>
+					
+
+					<h3>
+						Ung kultur møtes (UKM)
+					</h3>
+					<p>
+						UKM jobber for å fremme og utvikle ung kultur over hele landet. Det viktigste for UKM, er å bidra til at ung kultur 
+                        får større plass i lokalsamfunnet. Vi arrangerer årlige mønstringer og festivaler, i tillegg til helårig aktivitet som 
+                        turneer, workshops og andre arrangement i samarbeid med andre. Vi tror på ungdom og deres evner, og vil at de som ønsker 
+                        det kan involvere seg på alle plan. Ungdommene våre tas med i beslutninger både når det gjelder organisasjonens retning 
+                        og spesifikke arrangementer. Datakultur bør løftes opp og frem som en kulturarena, og vi ønsker med prosjektet Møteplass 
+                        Datakultur å finne svar på hvordan vi kan tilrettelegge best mulig for inkludering av dataspill og datakultur i arbeidet 
+                        med ungdom.
+					</p>
+
+					<div class="logo">
+					<img src="/kandu.png">
+					</div>
+					<h3>
+						KANDU – Norsk Dataungdom
+					</h3>
+					<p> 
+						KANDU samler over  6.000 datainteresserte ungdom i en landsomfattende frivillig organisasjon. 
+						Siden 1996 har vi arrangert en av verdens største kreative teknologifestival og datatreff, The 
+						Gathering. KANDU er en av Norges største ungdomsorganisasjoner og arrangerer, fasiliterer og fronter
+						en rekke aktiviteter og saker over hele landet. Vi er opptatt av å fremme, styrke og åpne digitale 
+						kulturarenaer der ungdom får utfolde seg og lære på egne premisser. Våre viktigste saker er at digital 
+						kultur har rett på anerkjennelse som tradisjonell kultur, at spill er kultur, at møteplasser er viktig 
+						for datakulturen, og å synliggjøre den sosiale datakulturen som allerede finnes rundt om i landet.
+					</p>
+					
+					<div class="logo">
+					<img src="/tverga3.png">
+					</div>
+
+
+					<h3>
+						Tverga
+					</h3>
+					<p>
+						Tverga er ressurssenteret for egenorganisert idrett og fysisk aktivitet, etablert i 2018 av Oslo Skateboardforening 
+                        og Ungdom og Fritid, på oppdrag fra Kulturdepartementet. Gjennom kunnskap, nettverk, profesjonell veiledning og verktøy 
+                        bidrar Tverga i utviklingen av aktive lokalsamfunn med attraktive møteplasser for egenorganisert idrett og fysisk aktivitet. 
+                        Tverga ser det som en naturlig del av sitt oppdrag å engasjere seg i arbeidet med utviklingen av gode møteplasser for spillinteresserte 
+                        ungdommer. Ungdom har et mangfold av interesser og erfaringene våre viser at unge etterspør møteplasser som inneholder flere aktiviteter 
+                        samlet på ett sted. Fysisk aktivitet er viktig for spillinteresserte, og vi håper at gode møteplasser for datakultur også vil ligge tett på 
+                        eller inkludere rom for fysisk aktivitet.
+
+					</p>
+
+
+				</div>
+			</div>
+		</div>
+	</article>
+{% endblock %}
