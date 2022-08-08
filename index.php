@@ -71,6 +71,10 @@ switch ($_GET['PAGE']) {
         case 'veileder':
         $template = 'veileder';
     break;
+        
+          case 'arendalsuka':
+        $template = 'arendalsuka';
+    break;
 
     case 'timer':
         $template = 'timer';
